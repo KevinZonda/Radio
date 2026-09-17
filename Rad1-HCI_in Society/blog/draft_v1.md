@@ -14,7 +14,9 @@
 
 **为什么 1984 年的黑白 Macintosh，其实比今天很多质感精良的 3D 界面更"拟物"？**
 
-Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是黑白的，像素粗糙。但只要你把它和 iOS 6 的"皮革通讯录"放在一起看，就会意识到：我们对"拟物"这个词的理解，从一开始就太窄了。
+Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是黑白的，像素粗糙。但只要你把它和 iOS 6 放在一起看——便签纸做的 Notes、翻页的日历、木纹的 Game Center——就会意识到：我们对"拟物"这个词的理解，从一开始就太窄了。
+
+![iOS 6 主屏：拟物的顶点——图标不再"指代"物，而是伪装成物本身（图片来源：Wikimedia Commons, CC BY 4.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg/1280px-IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg)
 
 把拟物拆成三层，历史会清晰很多：
 
@@ -30,21 +32,37 @@ Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是�
 
 顺着这个思路，UI 的历史可以读成一张"人类计算课程表"。注意：这是一种**解读**，不是设计者的自觉宣言——但几乎每个案例都有扎实的史料支撑。
 
-**第一课：把机器 ontology 翻译成人 ontology。** Xerox Star（1981）的革命性不在于"图标画得像"，而在于它改变了你面对计算机时的本体论：你面对的不再是 program、process、storage structure，而是 document、folder、in/out basket、printer。苹果 Lisa（1983）把 simplicity 和 integration 写进官方 UI 标准，把一致性当作降低学习成本的手段；Macintosh（1984）用 MacPaint 教直接操作、用 MacWrite 教 WYSIWYG。
+![课程表总览：从陌生本体到撤除脚手架（本文绘制）](assets/fig_gui_curriculum.png)
+
+**第一课：把机器 ontology 翻译成人 ontology。** Xerox Star（1981）的革命性不在于"图标画得像"，而在于它改变了你面对计算机时的本体论：你面对的不再是 program、process、storage structure，而是 document、folder、in/out basket、printer。
+
+![Xerox Star 8010 桌面：文件夹、收/发件篮、约会簿——办公空间被直接搬进了屏幕（图片来源：Wikimedia Commons, CC BY 2.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Desktop_icons_for_Xerox_Star_8010.jpg/1280px-Desktop_icons_for_Xerox_Star_8010.jpg)
+
+苹果 Lisa（1983）把 simplicity 和 integration 写进官方 UI 标准，把一致性当作降低学习成本的手段；Macintosh（1984）用 MacPaint 教直接操作、用 MacWrite 教 WYSIWYG。
 
 **第二课：GUI 语法标准化。** 早期的 Windows 1.0（1985）更像 DOS 的视觉控制层；到 Windows 3.x，用户需要同时理解 Program Manager 和 File Manager 两套本体——"程序在哪里"和"文件在哪里"是两个问题。今天看来自然的 app/file 区分，曾经是必须被明确教授的知识。
 
+![Windows 3.x 的 Program Manager：图标正从"办公物件"退化为"程序入口"（图片来源：Wikimedia Commons, Public domain）](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png/1280px-Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png)
+
 **第三课：系统状态必须可见。** 这是资料里最硬的案例。Windows 95 的设计团队（Kent Sullivan 在 CHI 1996 上公开了完整的过程）通过 usability testing 发现，新手真正的困难不是"找不到命令"，而是**系统状态不可见**：最小化一个窗口之后，那个任务仿佛消失了。Taskbar 的价值在于让"仍然存在的任务"持续可见；Start 按钮则是把系统拓扑压缩成一个可返回的 home base。
+
+![Windows 95：Start 菜单展开，Taskbar 让"仍然存在的任务"持续可见（图片来源：Wikimedia Commons, CC0）](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Windows95pl.png/1280px-Windows95pl.png)
 
 这里有一个鲜为人知的细节，我认为是整个 UI 史上最有教育意义的失败案例之一：团队做过一个 **Beginner Shell**——一个为新手极度简化的界面——最后**主动放弃了**。原因有三：功能不全，用户迟早要退出；在简化界面里学到的东西迁移不到标准界面；等于要学两套系统。
 
 **脚手架不能与最终系统割裂。** 这句话几乎可以作为整篇文章的注脚。
 
-**第四课：身体语法。** 2007 年电容多点触控对大众是陌生的。iOS 1–6 的拟物——纸张、书架、罗盘、皮革——不只是在卖萌，它在为一套全新的身体交互建立可预测的"物理"。现实感降低了新交互的语义距离。
+**第四课：身体语法。** 2007 年电容多点触控对大众是陌生的。iOS 1–6 的拟物——就是开头那张主屏——不只是在卖萌，它在为一套全新的身体交互建立可预测的"物理"。现实感降低了新交互的语义距离。
 
 **第五课：毕业，以及撤架。** Metro（2011）把 "authentically digital" 和 "content not chrome" 直接写进官方设计理念，明确反对为了传统而模拟现实控件。iOS 7 常被讲成"去拟物"，但这个说法不准确：它减弱的是 object-level 的视觉写实（皮革、木纹），同时**增强了** motion、layer、translucency 这类空间与行为的写实。真正的变化是：用户的"毕业"感来自交互语法的延续（UIKit 结构没动，换的是皮肤），于是显式脚手架可以撤掉一部分。
 
-然后 Material Design（2014）做了一个漂亮的转身：设计团队用**真实纸张**做实验，观察光影和纸片的运动，再抽象成规则。这不是"iOS 6 式"的拟物——不是假装 Gmail 是一个皮革信封——而是从"模仿具体物件"转向"模拟物理规律"。Fluent 的 Acrylic/Mica 同理：质感回来，但编码的是层级、焦点和上下文，而不是"这是真的玻璃"。
+![iOS 7 锁屏：物从界面里退场，只留下色彩、字体与层级（Commons 判定 Public domain；苹果 UI 截图的版权状态存在争议，使用风险自担）](https://upload.wikimedia.org/wikipedia/commons/6/63/IOS_7_Lockscreen.png)
+
+然后 Material Design（2014）做了一个漂亮的转身：设计团队用**真实纸张**做实验，观察光影和纸片的运动，再抽象成规则。这不是"iOS 6 式"的拟物——不是假装 Gmail 是一个皮革信封——而是从"模仿具体物件"转向"模拟物理规律"。
+
+![Material You：拟物没有消失，而是抽象化了——阴影不再假装是阳光下的物体，而是表达界面元素的层级（图片来源：Wikimedia Commons, CC BY 4.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Material_you_light.png/1280px-Material_you_light.png)
+
+Fluent 的 Acrylic/Mica 同理：质感回来，但编码的是层级、焦点和上下文，而不是"这是真的玻璃"。
 
 这里必须插入两个诚实的限定，否则上面的叙事就是目的论了：
 
@@ -59,11 +77,13 @@ Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是�
 
 现代社会不断把"认识这张脸、当面判断这个人"的协作方式，改造成可以跨越陌生人、跨越时间地域的符号系统。一条链条：
 
-**脸 → 符号/制服/印章 → 角色 → 凭证/权限 → 协议/流程 → 基础设施。**
+![社会的同构链条：从"认识这张脸"到基础设施（本文绘制）](assets/fig_social_chain.png)
 
 几个例子，每个都值得停留几秒：
 
 **钱。** 物物交换需要"双重欲望巧合"，而钱把劳动、债务、信用、承诺这些高维社会关系，压缩成一个双方都可操作的 token：10 块钱。Giddens 把货币称作 symbolic token：它可以在完全不依赖持有者身份的情况下跨时空流通。你不需要认识铸币厂厂长，也敢收这张钞票。
+
+![1861 年美国 5 美元 Demand Note——"绿背"鼻祖：价值与载体的第一次大解耦（图片来源：Wikimedia Commons, Public domain）](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/US-%245-DN-1861-Fr.1.jpg/960px-US-%245-DN-1861-Fr.1.jpg)
 
 **制服、印章、证书。** 它们解决的是"远程权威"问题：主体不在场时，权威与承诺如何存续并被验证。你不需要认识这个穿制服的人，制服告诉你他的角色、机构和他能做的事。
 
@@ -71,7 +91,15 @@ Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是�
 
 **交通和排队。** 没有信号灯的路口，陌生人靠眼神、手势和地位即时谈判；交通灯把路口变成协议——不需要互相了解就能高速协调。排队则是更微妙的压缩：谁更有权先获得服务，本来取决于身份、魅力、关系、音量甚至冲突，而队伍（以及取号机）把这个社会竞争压成了一个空间位置，再压成一个 token：**A037**。你手里的号码不认识你，也不需要认识你。
 
-**电梯、电话、ATM。** 这三个是直接的界面先例。电梯曾经有操作员——一个理解你的目标、替你操作复杂设备的人。自动控制成熟后，交互被压缩成楼层按钮、亮灯反馈和开关门：**person → person → machine 变成了 person → interface → machine**。电话曾经依赖接线员做路由，号码系统把"帮我接那个人"变成 addressable identifier——电话号码是一种高度抽象、但被文化内化之后就几乎无摩擦的社会原语。ATM 把柜员关系拆成认证、授权、交易、确认、回执五个形式化原语。
+**电梯、电话、ATM。** 这三个是直接的界面先例。电梯曾经有操作员——一个理解你的目标、替你操作复杂设备的人。
+
+![1917 年，Martha Washington 酒店的电梯操作员：理解你的目标、替你操作复杂设备的人——这个角色后来被一组按钮整体取代（图片来源：Library of Congress / Wikimedia Commons, Public domain）](https://upload.wikimedia.org/wikipedia/commons/2/23/Elevator_girl%2C_Martha_Washington_Hotel_in_1917.jpg)
+
+自动控制成熟后，交互被压缩成楼层按钮、亮灯反馈和开关门：**person → person → machine 变成了 person → interface → machine**。电话曾经依赖接线员做路由——1918 年的交换台是一个由人构成的"人肉路由器"阶层——号码系统把"帮我接那个人"变成 addressable identifier：电话号码是一种高度抽象、但被文化内化之后就几乎无摩擦的社会原语。
+
+![1918 年 Ohio Bell 交换台：路由曾是一个由人构成的阶层，程控交换让他们整体退场（图片来源：Wikimedia Commons, Public domain）](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ohio_Bell_Telephone_Company_1918_CP01090-Garfield_Branch_Interior_-_DPLA_-_6a356e5d9ab1849c89786bfac3ae0462.jpg/960px-Ohio_Bell_Telephone_Company_1918_CP01090-Garfield_Branch_Interior_-_DPLA_-_6a356e5d9ab1849c89786bfac3ae0462.jpg)
+
+ATM 把柜员关系拆成认证、授权、交易、确认、回执五个形式化原语。
 
 **官僚流程。** 现代组织把"找一个具体的人帮我解决"变成：提交表单、进入流程、拿到 case ID、等待状态转换。这其实就是"社会 HCI"——组织内部的人和部门，被抽象成用户可见的状态机：已提交 / 审核中 / 待补充 / 已通过 / 已拒绝。
 
@@ -113,14 +141,7 @@ Giddens 给这个过程起过名字：**disembedding（脱嵌）**——社会�
 
 落到具体界面，一个"机构化"的 agent 名片可能长这样：
 
-> **Procurement Agent #P-184**
-> Principal: ACME Inc.
-> Role: Purchasing
-> Spend authority: ≤ $25,000
-> Human approval required: > $5,000
-> Valid until: 2026-09-30
-> Audit log: available
-> [Revoke access]
+![Role UI 概念稿：没有头像，没有寒暄，只有授权、边界与可问责性（本文绘制）](assets/fig_role_card.png)
 
 注意这张卡片里没有名字、没有头像、没有"你好呀！"。它告诉你的是：**它是谁授权的、能做什么、做到哪里为止、出了事查哪里、怎么一键撤销。** 这就是制服和工牌逻辑，不是人格逻辑。
 
@@ -134,7 +155,11 @@ Giddens 给这个过程起过名字：**disembedding（脱嵌）**——社会�
 - **Audit**：完整行动账本——意图 → 计划 → 工具调用 → 副作用 → 证据。
 - **Declare uncertainty**：不要只给一个"87% 置信度"，而要展示**哪类任务可靠、哪类输入容易出错、缺了哪些条件、哪些部分无法验证**。
 
-还有两个值得单独说的模式。一是 **Delegation Breadcrumb**：当任务在多个 agent 之间流转时，界面显示完整的委托链——"你 → 项目主管 Agent → 采购 Agent → 供应商系统"，每层显示能力与责任边界，而不是让用户以为自己在和一个"人"聊天。二是 **Human Handoff**：当 agent 到达能力边界，界面显示"需要转交：法务 / 财务 / 人类主管"，而不是继续用人格话术撑住场面。
+还有两个值得单独说的模式。一是 **Delegation Breadcrumb**：当任务在多个 agent 之间流转时，界面显示完整的委托链——"你 → 项目主管 Agent → 采购 Agent → 供应商系统"——每层显示能力与责任边界，而不是让用户以为自己在和一个"人"聊天。
+
+![Delegation Breadcrumb 概念稿：委托链可见，边界显式，账本可回放（本文绘制）](assets/fig_delegation_breadcrumb.png)
+
+二是 **Human Handoff**：当 agent 到达能力边界，界面显示"需要转交：法务 / 财务 / 人类主管"，而不是继续用人格话术撑住场面。
 
 ## 六、必须说的反对意见
 
@@ -181,3 +206,21 @@ Agent UI 的成熟，也许会让我们不再需要把数字行动者伪装成�
 - Pollman (2021), Corporate Law and the Myth of the Shareholder: https://scholarship.law.vanderbilt.edu/vlr/vol74/iss6/5/
 - Stanford Encyclopedia of Philosophy, Money: https://plato.stanford.edu/entries/money-finance/
 - Microsoft Windows User Experience Guide（Metro 设计原则）；Apple iOS 7 Transition Guide；Google Material Design 官方回顾
+
+## 附：图片来源与许可
+
+本文绘制的概念图（`assets/fig_*.png`，SVG 源文件同目录）：fig_gui_curriculum、fig_social_chain、fig_role_card、fig_delegation_breadcrumb，可自由使用。
+
+历史照片与截图（均来自 Wikimedia Commons，嵌入前已逐一验证直链可访问）：
+
+- iOS 6 主屏（iPod touch 4G 实拍）：CC BY 4.0 — https://commons.wikimedia.org/wiki/File:IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg
+- Xerox Star 8010 桌面图标：CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Desktop_icons_for_Xerox_Star_8010.jpg
+- Windows 3.x Program Manager：Public domain — https://commons.wikimedia.org/wiki/File:Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png
+- Windows 95 桌面（Start 菜单展开）：CC0 — https://commons.wikimedia.org/wiki/File:Windows95pl.png
+- iOS 7 锁屏：Commons 判定 Public domain（苹果 UI 截图版权有争议，使用风险自担）— https://commons.wikimedia.org/wiki/File:IOS_7_Lockscreen.png
+- Material You 界面示例：CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Material_you_light.png
+- 1861 年 5 美元 Demand Note：Public domain — https://commons.wikimedia.org/wiki/File:US-$5-DN-1861-Fr.1.jpg
+- 1917 年电梯操作员（Martha Washington 酒店）：Public domain（Library of Congress）— https://commons.wikimedia.org/wiki/File:Elevator_girl,_Martha_Washington_Hotel_in_1917.jpg
+- 1918 年 Ohio Bell 交换台：Public domain — https://commons.wikimedia.org/wiki/File:Ohio_Bell_Telephone_Company_1918_CP01090-Garfield_Branch_Interior_-_DPLA_-_6a356e5d9ab1849c89786bfac3ae0462.jpg
+
+未找到自由许可来源、主动放弃的素材：Macintosh System 1 真实桌面截图、iOS 6 皮革 Notes 界面、Metro 真实截图、1967 年第一台 ATM 照片——均因版权原因不采用（可另行向权利方申请授权）。

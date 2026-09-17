@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 320" font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', sans-serif">
+  <rect width="1240" height="320" fill="#fafafa"/>
+  <text x="620" y="46" text-anchor="middle" font-size="22" font-weight="600" fill="#222">社会的同构链条：从"认识这张脸"到基础设施</text>
+
+  <g font-size="14" font-weight="600" fill="#7a4a2b" text-anchor="middle">
+    <rect x="40"  y="90" width="170" height="56" rx="28" fill="#fdf3ea" stroke="#c98d5f" stroke-width="1.5"/>
+    <text x="125" y="125">脸</text>
+    <rect x="235" y="90" width="170" height="56" rx="28" fill="#fdf3ea" stroke="#c98d5f" stroke-width="1.5"/>
+    <text x="320" y="125">符号 / 制服 / 印章</text>
+    <rect x="430" y="90" width="170" height="56" rx="28" fill="#fdf3ea" stroke="#c98d5f" stroke-width="1.5"/>
+    <text x="515" y="125">角色</text>
+    <rect x="625" y="90" width="170" height="56" rx="28" fill="#fdf3ea" stroke="#c98d5f" stroke-width="1.5"/>
+    <text x="710" y="125">凭证 / 权限</text>
+    <rect x="820" y="90" width="170" height="56" rx="28" fill="#fdf3ea" stroke="#c98d5f" stroke-width="1.5"/>
+    <text x="905" y="125">协议 / 流程</text>
+    <rect x="1015" y="90" width="185" height="56" rx="28" fill="#eef5ee" stroke="#5a9364" stroke-width="1.5"/>
+    <text x="1107" y="125" fill="#3d6b47">基础设施</text>
+  </g>
+
+  <g stroke="#bbb" stroke-width="2">
+    <line x1="212" y1="118" x2="232" y2="118"/><line x1="407" y1="118" x2="427" y2="118"/>
+    <line x1="602" y1="118" x2="622" y2="118"/><line x1="797" y1="118" x2="817" y2="118"/>
+    <line x1="992" y1="118" x2="1012" y2="118"/>
+  </g>
+  <g fill="#bbb">
+    <path d="M232 118 l-8 -5 v10 z"/><path d="M427 118 l-8 -5 v10 z"/><path d="M622 118 l-8 -5 v10 z"/>
+    <path d="M817 118 l-8 -5 v10 z"/><path d="M1012 118 l-8 -5 v10 z"/>
+  </g>
+
+  <g font-size="12.5" fill="#666" text-anchor="middle">
+    <text x="125" y="180">认识具体的人</text><text x="125" y="200">当面判断意图</text>
+    <text x="320" y="180">军装、公章、签名</text><text x="320" y="200">权威可以不在场</text>
+    <text x="515" y="180">柜员、医生、警察</text><text x="515" y="200">角色先于个人</text>
+    <text x="710" y="180">证书、工牌、门禁</text><text x="710" y="200">能做什么有据可查</text>
+    <text x="905" y="180">排队、取号 A037、交通灯</text><text x="905" y="200">竞争被压成位置</text>
+    <text x="1107" y="180">货币、公司、地址、ATM</text><text x="1107" y="200">内化后几乎无摩擦</text>
+  </g>
+
+  <text x="620" y="268" text-anchor="middle" font-size="13" fill="#333" font-weight="600">电梯操作员 → 楼层按钮 · 电话接线员 → 号码 · 柜员 → 认证/授权/回执</text>
+  <text x="620" y="294" text-anchor="middle" font-size="12" fill="#999">结构同构，而非因果同源：社会与 GUI 各自独立完成了"把高维关系压缩成可操作 token"的抽象</text>
+</svg>
