@@ -1,0 +1,23 @@
+# 术语表
+
+- **Mental model**：用户对系统如何运作的内部理解。
+- **Interface metaphor**：用已知域解释未知目标域的界面结构。
+- **Semantic skeuomorphism**：借现实对象的类别/语义组织数字对象。
+- **Behavioral skeuomorphism**：借现实动作/物理行为组织交互。
+- **Visual skeuomorphism**：借现实材质/外观强化对应关系。
+- **Direct manipulation**：对可见对象直接执行操作并获得即时反馈。
+- **Affordance / signifier**：可操作性与提示用户“哪里、如何操作”的线索。
+- **Recognition over recall**：让用户识别可见选择，而不是记忆命令。
+- **Transfer of learning**：一个界面中的学习可迁移到另一个界面。
+- **Scaffolding**：暂时支撑学习/理解的结构，可随能力提高而减少。
+- **CASA**：Computers Are Social Actors，人会自动把社会规则应用到计算机。
+- **Anthropomorphism**：把人类动机、情绪、意图等赋予非人对象。
+- **Agentic artifact**：能主动行动、接受任务、在不确定环境中追求目标的信息系统。
+- **Delegation**：把任务、权限与一定责任转交给另一个行动者。
+- **Appropriate reliance**：根据系统真实可靠性，在该依赖时依赖、该拒绝时拒绝。
+- **Provenance**：信息/行动的来源链。
+- **Authority / scope**：行动者被授权做什么、在什么边界内做。
+- **Auditability**：行动能否被追踪、解释、复核。
+- **Revocation**：撤销授权、访问或 delegation。
+- **Abstract system**：跨越面对面关系、由符号/专业制度支撑的现代社会系统。
+- **Face-work**：依赖面对面出现、熟悉性和具体互动建立的信任/协调。

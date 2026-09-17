@@ -1,0 +1,22 @@
+﻿year,topic/system,claim,url,source_type,evidence_status
+1980,Apple Lisa,"Lisa UI Standards: simplicity, integration, familiar concepts",https://guidebookgallery.org/articles/lisauserinterfacestandards,primary/archival transcription,strong
+1983,HCI,Shneiderman direct manipulation,https://www.cs.umd.edu/~ben/publications.html,academic,strong
+1985,HCI,Direct Manipulation Interfaces cognitive account,https://vis.csail.mit.edu/classes/6.859/readings/pdfs/Hutchins-DirectManipulationInterfaces.pdf,academic,strong
+1988,HCI,Interface metaphors -> familiarity and mental models,https://www.sciencedirect.com/science/article/pii/B9780444705365500087,academic,strong
+1996,Windows 95,Usability engineering case study,https://chi1996.acm.org/proceedings/desbrief/Sullivan/kds_txt.html,primary design case study,very strong
+2000,Mac OS X Aqua,Apple launch description,https://www.apple.com/newsroom/2000/01/05Apple-Unveils-Mac-OS-X/,official,strong
+2009,Windows 7,Taskbar design goals,https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/brownfield/windows-7-taskbar-apis,official technical,strong
+2011,Metro,Design principles,https://learn.microsoft.com/en-us/shows/build-build2011/app-395t,official talk,strong
+2012,Metro,Content not chrome / authentically digital,https://learn.microsoft.com/en-us/archive/msdn-magazine/2012/january/windows-phone-design-your-windows-phone-apps-to-sell,official,strong
+2012,iOS legacy HIG,Consistency/direct manipulation/feedback/metaphors,https://developer.apple.com/library/archive/referencelibrary/GettingStarted/RoadMapiOS-Legacy/chapters/RM_iHIG_Station/Fundamentals/Fundamentals.html,official,strong
+2013,iOS 7,Physicality muted; motion/layers deepen,https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/TransitionGuide/,official,very strong
+2014,Material Design,Paper experiments -> rules,https://design.google/library/material-design-launch-2014,official retrospective,strong
+2018,Flat vs skeuomorph,Counter-evidence on novice learnability,https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FHCI2018.57,academic,strong limitation
+1994,CASA,Computers are social actors,https://doi.org/10.1145/259963.260288,academic,very strong
+2007,Anthropomorphism,Three-factor theory,https://pubmed.ncbi.nlm.nih.gov/17907867/,academic,strong
+2021,Agentic IS,Delegation framework,https://aisel.aisnet.org/misq/vol45/iss1/12/,academic,strong
+2019,Human-AI Interaction,18 design guidelines,https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/,academic/industry,strong
+2024,Appropriate trust,Systematic review,https://doi.org/10.1145/3696449,academic,strong
+2013,Corporate personhood,Corporate persona functions,https://scholarship.law.vanderbilt.edu/faculty-publications/18/,legal scholarship,strong
+2021,Corporate personhood,Legal person separate from participants,https://scholarship.law.vanderbilt.edu/vlr/vol74/iss6/5/,legal scholarship,strong
+2026,AI avatars,Avatar identity affects epistemic trust,https://www.sciencedirect.com/science/article/pii/S2666920X2600072X,academic,strong
