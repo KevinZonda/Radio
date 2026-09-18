@@ -14,7 +14,8 @@
 说明：
     - 【...】 制作提示行、引用块、标题、分隔线、Markdown 加粗都会被清除，它们不是口播文本
     - qwen-audio-3.0-tts-flash 支持行内情感标签（如 [serious]），可用 --tag 为每段加前缀
-    - 按空行分段合成，输出 output/NN.mp3（每段一个，便于单句重录）+ output/full.mp3（拼好的整轨）
+    - 按空行分段合成，输出 output/<project>/<variant>/NN.mp3（每段一个，便于单句重录）+ full.mp3（整轨）
+      project 取稿件所在 RadN 目录名，variant 为 "<稿件名>-<音色>"，如 output/rad1-hci-in-society/script-v1-longanhuan-v3-6/
 """
 import argparse
 import os
@@ -26,9 +27,28 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_INPUT = REPO_ROOT / "Rad1-HCI_in Society" / "blog" / "script_v1.md"
-DEFAULT_OUT = Path(__file__).resolve().parent / "output"
+OUTPUT_ROOT = Path(__file__).resolve().parent / "output"
 
 MODEL = "qwen-audio-3.0-tts-flash"
+
+
+def slugify(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def default_out_dir(input_path: Path, voice: str, rate: float = 1.0) -> Path:
+    """output/<project>/<variant>/ — project 取 RadN 目录名，variant 为 稿件-音色[-语速]。"""
+    project = "default"
+    for part in input_path.parts:
+        if re.match(r"^Rad\d+", part, re.I):
+            project = slugify(part)
+            break
+    voice_short = voice.removeprefix("qwen-audio-3.0-tts-plus-").removeprefix(
+        "qwen-audio-3.0-tts-flash-")
+    variant = f"{slugify(input_path.stem)}-{slugify(voice_short)}"
+    if rate != 1.0:
+        variant += f"-r{rate:g}"
+    return OUTPUT_ROOT / project / variant
 
 
 def load_env_file(path: Path) -> None:
@@ -116,7 +136,8 @@ def main() -> int:
         sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description="合成口播稿为 mp3")
     parser.add_argument("-i", "--input", type=Path, default=DEFAULT_INPUT, help="口播稿 Markdown 路径")
-    parser.add_argument("-o", "--out", type=Path, default=DEFAULT_OUT, help="输出目录")
+    parser.add_argument("-o", "--out", type=Path, default=None,
+                        help="输出目录，默认 output/<project>/<variant>（稿件-音色）")
     parser.add_argument("--voice", default="longanhuan_v3.6", help="音色，默认 longanhuan_v3.6")
     parser.add_argument("--model", default=MODEL, help="模型，默认 qwen-audio-3.0-tts-flash")
     parser.add_argument("--rate", type=float, default=1.0, help="语速倍率，默认 1.0")
@@ -124,6 +145,9 @@ def main() -> int:
     parser.add_argument("--text", default=None, help="直接合成该句（冒烟测试），忽略 -i")
     parser.add_argument("--list", action="store_true", help="只打印分段预览")
     args = parser.parse_args()
+
+    if args.out is None:
+        args.out = default_out_dir(args.input, args.voice, args.rate)
 
     load_env_file(Path(__file__).resolve().parent / ".env")
     if not os.environ.get("DASHSCOPE_API_KEY"):

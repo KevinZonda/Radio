@@ -4,3 +4,4 @@
 # 密钥与 TTS 产物
 .env
 src/tts/output/
+__pycache__
