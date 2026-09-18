@@ -26,7 +26,7 @@ Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是�
 
 ## 二、界面是一门课
 
-顺着这个思路，UI 的历史可以解读成一张"人类计算课程表"。注意：这是一种**解读**，不是设计者的<NEED_MODIFY>自觉宣言</NEED_MODIFY>——但几乎每个案例都有扎实的史料支撑。
+顺着这个思路，UI 的历史可以解读成一张"人类计算课程表"。注意：这是一种**解读**，未必是设计者的本意——但几乎每个案例都有扎实的史料支撑。
 
 ![课程表总览：从陌生本体到撤除脚手架（本文绘制）](assets/fig_gui_curriculum.png)
 
@@ -40,17 +40,16 @@ Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是�
 
 ![Windows 3.x 的 Program Manager：图标正从"办公物件"退化为"程序入口"（图片来源：Wikimedia Commons, Public domain）](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png/1280px-Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png)
 
-**第三课：系统状态必须可见。** <NEED_MODIFY>这是资料里最硬的案例。</NEED_MODIFY>Windows 95 的设计团队（Kent Sullivan 在 CHI 1996 上公开了完整的过程）通过易用性测试发现，新手真正的困难不是"找不到命令"，而是**系统状态不可见**：最小化一个窗口之后，那个任务仿佛消失了。任务栏的价值在于让"仍然存在的任务"持续可见；开始按钮则是把系统拓扑压缩成一个可返回的<NEED_MODIFY>home base</NEED_MODIFY>。
+**第三课：系统状态必须可见。** 这是全文史料支撑最充分的案例。Windows 95 的设计团队（Kent Sullivan 在 CHI 1996 上公开了完整的过程）通过易用性测试发现，新手真正的困难不是"找不到命令"，而是**系统状态不可见**：最小化一个窗口之后，那个任务仿佛消失了。任务栏的价值在于让"仍然存在的任务"持续可见；开始按钮则是把系统拓扑压缩成一个随时可以返回的大本营（home base）。
 
 ![Windows 95：Start 菜单展开，Taskbar 让"仍然存在的任务"持续可见（图片来源：Wikimedia Commons, CC0）](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Windows95pl.png/1280px-Windows95pl.png)
 
-这里有一个鲜为人知的细节，我认为是整个 UI 史上最有教育意义的失败案例之一：Windows 团队做过一个 **Beginner Shell**：一个为新手极度简化的界面<COMMENT>很容易认为是终端模拟器</COMMENT>，最后**主动放弃了**。原因有三：功能不全，用户迟早要退出；在简化界面里学到的东西迁移不到标准界面；等于要学两套系统。
-<COMMENT>需要过渡语句</COMMENT>
-**脚手架不能与最终系统割裂。** 这句话几乎可以作为整篇文章的注脚。
+这里有一个鲜为人知的细节，我认为是整个 UI 史上最有教育意义的失败案例之一：Windows 团队做过一个 **Beginner Shell**：一个为新手极度简化的图形界面——精简版的桌面，而不是命令行——最后**主动放弃了**。原因有三：功能不全，用户迟早要退出；在简化界面里学到的东西迁移不到标准界面；等于要学两套系统。
+这个失败案例的教训只有一句话：**脚手架不能与最终系统割裂。** 它几乎可以作为整篇文章的注脚。
 
-**第四课：身体语法。** 2007 年电容多点触控刚出现时对大众是陌生的。iOS 1–6 的拟物，就是开头那张主屏，不只是在<NEED_MODIFY>卖萌</NEED_MODIFY>，它在为一套全新的<NEED_MODIFY>身体交互建立可预测的"物理"</NEED_MODIFY>。通过融合现实中的知识，降低了新交互的语义距离。
+**第四课：身体语法。** 2007 年电容多点触控刚出现时对大众是陌生的。iOS 1–6 的拟物，就是开头那张主屏，不只是在视觉上讨好用户，它在为一套全新的身体交互建立可预期的"物理规律"。通过融合现实中的知识，降低了新交互的语义距离。
 
-**第五课：毕业，以及撤架。** Metro（2011）把 "原生数字化"（authentically digital）和 "重内容，轻界面"（content not chrome） 写进官方设计理念，明确反对为了传统而模拟现实控件。iOS 7 常被讲成"去拟物"，但这个说法不准确：它减弱的是<NEED_MODIFY>object-level</NEED_MODIFY>的视觉写实（皮革、木纹），同时**增强了**<NEED_MODIFY>motion、layer、translucency</NEED_MODIFY>这类空间与行为的写实。真正的变化是：用户的"毕业"感来自交互语法的延续（UIKit 结构没动，换的是皮肤），于是显式脚手架可以撤掉一部分。
+**第五课：毕业，以及撤架。** Metro（2011）把 "原生数字化"（authentically digital）和 "重内容，轻界面"（content not chrome） 写进官方设计理念，明确反对为了传统而模拟现实控件。iOS 7 常被讲成"去拟物"，但这个说法不准确：它减弱的是物件层面的视觉写实（皮革、木纹），同时**增强了**运动、层级和半透明这类空间与行为的写实。真正的变化是：用户的"毕业"感来自交互语法的延续（UIKit 结构没动，换的是皮肤），于是显式脚手架可以撤掉一部分。
 
 ![iOS 7 锁屏：物从界面里退场，只留下色彩、字体与层级（Commons 判定 Public domain；苹果 UI 截图的版权状态存在争议，使用风险自担）](https://upload.wikimedia.org/wikipedia/commons/6/63/IOS_7_Lockscreen.png)
 
@@ -58,9 +57,9 @@ Material Design（2014）随后做了一个不一样的转变：设计团队用*
 
 ![Material You：拟物没有消失，而是抽象化了——阴影不再假装是阳光下的物体，而是表达界面元素的层级（图片来源：Wikimedia Commons, CC BY 4.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Material_you_light.png/1280px-Material_you_light.png)
 
-Fluent 的 Acrylic/Mica 同理：质感回来，但<NEED_MODIFY>编码</NEED_MODIFY>的是层级、焦点和上下文，而不是"这是真的玻璃"。
+Fluent 的 Acrylic/Mica 同理：质感回来，但它承载的是层级、焦点和上下文，而不是"这是真的玻璃"。
 
-这里必须插入两个<NEED_MODIFY>诚实的</NEED_MODIFY>限定，否则上面的叙事就是目的论了：
+这里必须插入两个限定，否则上面的叙事就是目的论了：
 
 1. **拟物 ≠ 更好学。** 后续实证研究的结果并不一致：有研究发现老年用户在某些自然主义拟物界面上反而更困难，另一些研究又发现老年用户在扁平 UI 上的视觉搜索和可点击识别更差。关键变量是语义距离、熟悉度、可供性和约定俗成，而不是"像不像现实"本身。
 2. **撤架也会失败。** Windows 8 把大量操作藏进边缘手势，discoverability 出了明显问题。结论是：只有当目标用户群已经内化了某个交互约定，撤掉提示才是安全的——"教育完成"从来不是全社会、全设备、全模态一次性完成的。
@@ -83,7 +82,7 @@ Fluent 的 Acrylic/Mica 同理：质感回来，但<NEED_MODIFY>编码</NEED_MOD
 
 **制服、印章、证书。** 它们解决的是"远程权威"问题：主体不在场时，权威与承诺如何存续并被验证。你不需要认识这个穿制服的人，制服告诉你他的角色、机构和他能做的事。
 
-**公司。** 这可能是整个论证里最强的先例。公司是一群人、资产、流程和合同的集合，但法律把它当作一个持续的、可识别的、能拥有财产和承担责任的主体——**一个不需要"一张脸"的社会行动者**。Blair（2013）和 Pollman（2021）在公司法文献里详细梳理了这种法律人格如何实现连续性、<NEED_MODIFY>资产分隔</NEED_MODIFY>和内部治理。社会早就接受了一个没有身体、没有脸、但持续存在并行动的主体。
+**公司。** 这可能是整个论证里最强的先例。公司是一群人、资产、流程和合同的集合，但法律把它当作一个持续的、可识别的、能拥有财产和承担责任的主体——**一个不需要"一张脸"的社会行动者**。Blair（2013）和 Pollman（2021）在公司法文献里详细梳理了这种法律人格如何实现连续性、资产分割和内部治理。社会早就接受了一个没有身体、没有脸、但持续存在并行动的主体。
 
 **交通和排队。** 没有信号灯的路口，陌生人靠眼神、手势和地位即时谈判；交通灯把路口变成协议——不需要互相了解就能高速协调。排队则是更微妙的压缩：谁更有权先获得服务，本来取决于身份、魅力、关系、音量甚至冲突，而队伍（以及取号机）把这个社会竞争压成了一个空间位置，再压成一个代币：**A037**。你手里的号码不认识你，也不需要认识你。
 
@@ -119,9 +118,9 @@ Giddens 给这个过程起过名字：**disembedding（脱嵌）**——社会�
 
 - **过度信任**：头像和声音提升的是熟悉感（familiarity）和温暖感（warmth），未必提升对真实能力边界的理解——它可能增加"感觉上的信任"，却不增加"恰当的依赖"（appropriate reliance——人与 AI 交互研究近年的核心概念，2024 年一篇 ACM 系统综述指出其定义和测量仍不统一，足见这是个真问题而非口号）。
 - **错误归因**：用户会假定出并不存在的责任主体、连续意图和记忆边界。
-- **社会偏见**：2026 年已有研究显示，AI 导师头像的种族、性别、年龄线索会显著影响用户感知到的专业度和对建议的采纳率。<COMMENT>这条 2026 年的研究需补具体引用来源</COMMENT>给 AI 一张脸，就把人类社会偏差的整个管道接进来了。
+- **社会偏见**：2026 年一项题为《Face value》的研究（全文见文末来源）发现，在 AI 教学场景中，导师头像的种族、性别、年龄线索会显著影响学习者感知到的专业度和对建议的采纳率。给 AI 一张脸，就把人类社会偏差的整个管道接进来了。
 
-电梯操作员的类比在这里<NEED_MODIFY>变得锋利</NEED_MODIFY>：**今天 AI 助手的人格层，可能相当于电梯的"操作员阶段"**——在一个新技术的早期，用一个"人"做中介，帮助用户理解目标如何被完成；等交互语法成熟，这个中介就会被压缩成一组原语。当然，这是类比，不是预言。
+电梯操作员的类比在这里才真正显出分量：**今天 AI 助手的人格层，可能相当于电梯的"操作员阶段"**——在一个新技术的早期，用一个"人"做中介，帮助用户理解目标如何被完成；等交互语法成熟，这个中介就会被压缩成一组原语。当然，这是类比，不是预言。
 
 ## 五、从"它像谁"到"它被谁授权"
 
@@ -131,7 +130,7 @@ Giddens 给这个过程起过名字：**disembedding（脱嵌）**——社会�
 | --- | --- |
 | 脸（头像） | 角色（role） |
 | 魅力（personality） | 能力边界（competence boundary） |
-| 身份氛围<NEED_MODIFY>（identity vibe）</NEED_MODIFY> | 凭证（credential） |
+| 身份气质（identity） | 凭证（credential） |
 | 对话（conversation） | 委托状态（delegation state） |
 | 信任感（trust feeling） | 可审计性与可控性（auditability / control） |
 
@@ -197,6 +196,7 @@ Agent UI 的成熟，也许会让我们不再需要把数字行动者伪装成�
 - Reeves & Nass (1996), The Media Equation
 - Baird & Maruping (2021), The Next Generation of Research on IS Use, MIS Quarterly
 - Appropriate trust / reliance 系统综述 (2024): https://doi.org/10.1145/3696449
+- Face value: How avatar identity shapes epistemic trust in AI-mediated learning (2026): https://www.sciencedirect.com/science/article/pii/S2666920X2600072X
 - Microsoft, Guidelines for Human-AI Interaction (CHI 2019)
 - Blair (2013), Corporate Personhood and the Corporate Persona: https://scholarship.law.vanderbilt.edu/faculty-publications/18/
 - Pollman (2021), Corporate Law and the Myth of the Shareholder: https://scholarship.law.vanderbilt.edu/vlr/vol74/iss6/5/
