@@ -1,2 +1,6 @@
 .DS_Store
 .vscode
+
+# 密钥与 TTS 产物
+.env
+src/tts/output/
