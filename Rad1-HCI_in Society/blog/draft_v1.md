@@ -12,6 +12,8 @@
 
 Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是黑白的，像素粗糙。但只要你把它和 iOS 6 放在一起看：便签纸做的 Notes、翻页的日历、木纹的 Game Center，就会意识到：我们对"拟物"这个词的理解，从一开始就太窄了。
 
+![System 2（1985）的桌面：黑白、像素粗糙——但剪贴板、废纸篓、打印机用的全是办公室词汇（与 1984 年 System 1 视觉上几乎一致；图片来源：Wikimedia Commons, CC0）](https://upload.wikimedia.org/wikipedia/commons/7/7c/System_2.png)
+
 ![iOS 6 主屏：拟物的顶点——图标不再"指代"物，而是伪装成物本身（图片来源：Wikimedia Commons, CC BY 4.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg/1280px-IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg)
 
 如果我们把拟物拆成三层，历史会清晰很多：
@@ -209,6 +211,7 @@ Agent UI 的成熟，也许会让我们不再需要把数字行动者伪装成�
 
 历史照片与截图（均来自 Wikimedia Commons，嵌入前已逐一验证直链可访问）：
 
+- System 2 桌面截图（1985，与 System 1 视觉上几乎一致）：CC0 — https://commons.wikimedia.org/wiki/File:System_2.png
 - iOS 6 主屏（iPod touch 4G 实拍）：CC BY 4.0 — https://commons.wikimedia.org/wiki/File:IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg
 - Xerox Star 8010 桌面图标：CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Desktop_icons_for_Xerox_Star_8010.jpg
 - Windows 3.x Program Manager：Public domain — https://commons.wikimedia.org/wiki/File:Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png
@@ -219,4 +222,4 @@ Agent UI 的成熟，也许会让我们不再需要把数字行动者伪装成�
 - 1917 年电梯操作员（Martha Washington 酒店）：Public domain（Library of Congress）— https://commons.wikimedia.org/wiki/File:Elevator_girl,_Martha_Washington_Hotel_in_1917.jpg
 - 1918 年 Ohio Bell 交换台：Public domain — https://commons.wikimedia.org/wiki/File:Ohio_Bell_Telephone_Company_1918_CP01090-Garfield_Branch_Interior_-_DPLA_-_6a356e5d9ab1849c89786bfac3ae0462.jpg
 
-未找到自由许可来源、主动放弃的素材：Macintosh System 1 真实桌面截图、iOS 6 皮革 Notes 界面、Metro 真实截图、1967 年第一台 ATM 照片——均因版权原因不采用（可另行向权利方申请授权）。
+未找到自由许可来源、主动放弃的素材：Macintosh System 1 真实桌面截图（本文以视觉几乎一致的 System 2 截图代替，见上）、iOS 6 皮革 Notes 界面、Metro 真实截图、1967 年第一台 ATM 照片——均因版权原因不采用（可另行向权利方申请授权）。
