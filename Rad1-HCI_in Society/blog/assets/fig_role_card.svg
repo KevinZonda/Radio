@@ -1,50 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 560" font-family="-apple-system, 'PingFang SC', 'Hiragino Sans GB', sans-serif">
   <rect width="1240" height="560" fill="#f2f2f4"/>
   <text x="620" y="50" text-anchor="middle" font-size="24" font-weight="700" fill="#1a1a2e">AI 的"制服与工牌"：Role UI 概念稿</text>
-  <text x="620" y="80" text-anchor="middle" font-size="13.5" fill="#888">假说中的界面形态 —— 没有头像，没有寒暄，只有授权、边界与可问责性</text>
+  <text x="620" y="80" text-anchor="middle" font-size="13.5" fill="#555">假说中的界面形态 —— 没有头像，没有寒暄，只有授权、边界与可问责性</text>
 
   <!-- card -->
-  <rect x="290" y="110" width="660" height="380" rx="16" fill="#ffffff" stroke="#d8d8de"/>
+  <rect x="290" y="110" width="660" height="380" rx="0" fill="#ffffff" stroke="#d8d8de"/>
   <!-- header -->
-  <rect x="290" y="110" width="660" height="64" rx="16" fill="#1a1a2e"/>
+  <rect x="290" y="110" width="660" height="64" rx="0" fill="#1a1a2e"/>
   <rect x="290" y="150" width="660" height="24" fill="#1a1a2e"/>
   <circle cx="330" cy="142" r="14" fill="#5a9364"/>
   <text x="330" y="147" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">P</text>
   <text x="356" y="137" font-size="18" font-weight="700" fill="#ffffff" font-family="ui-monospace, 'SF Mono', Menlo, monospace">Procurement Agent #P-184</text>
-  <text x="356" y="160" font-size="12" fill="#9aa0b4">AGENT CREDENTIAL · 机构化凭证，而非人格</text>
-  <rect x="806" y="126" width="120" height="32" rx="16" fill="none" stroke="#5a9364" stroke-width="1.5"/>
+  <text x="356" y="160" font-size="12" fill="#d6dae6">AGENT CREDENTIAL · 机构化凭证，而非人格</text>
+  <rect x="806" y="126" width="120" height="32" rx="0" fill="none" stroke="#5a9364" stroke-width="1.5"/>
   <text x="866" y="147" text-anchor="middle" font-size="13" font-weight="600" fill="#5a9364">● 运行中</text>
 
   <!-- fields -->
   <g font-size="15">
-    <text x="330" y="220" fill="#999" font-size="12.5">委托方 PRINCIPAL</text>
+    <text x="330" y="220" fill="#555" font-size="12.5">委托方 PRINCIPAL</text>
     <text x="330" y="244" fill="#222" font-weight="600">ACME Inc.（你可审计的委托链顶端）</text>
 
-    <text x="330" y="288" fill="#999" font-size="12.5">角色 ROLE</text>
+    <text x="330" y="288" fill="#555" font-size="12.5">角色 ROLE</text>
     <text x="330" y="312" fill="#222" font-weight="600">采购 · Purchasing</text>
 
-    <text x="660" y="220" fill="#999" font-size="12.5">支出权限 SPEND AUTHORITY</text>
+    <text x="660" y="220" fill="#555" font-size="12.5">支出权限 SPEND AUTHORITY</text>
     <text x="660" y="244" fill="#222" font-weight="600">≤ $25,000 / 单</text>
 
-    <text x="660" y="288" fill="#999" font-size="12.5">人类审批阈值 HUMAN APPROVAL</text>
+    <text x="660" y="288" fill="#555" font-size="12.5">人类审批阈值 HUMAN APPROVAL</text>
     <text x="660" y="312" fill="#b03a2e" font-weight="600">&gt; $5,000 必须经你批准</text>
 
-    <text x="330" y="356" fill="#999" font-size="12.5">有效期 VALID UNTIL</text>
+    <text x="330" y="356" fill="#555" font-size="12.5">有效期 VALID UNTIL</text>
     <text x="330" y="380" fill="#222" font-weight="600">2026-09-30（到期自动失效）</text>
 
-    <text x="660" y="356" fill="#999" font-size="12.5">数据边界 MEMORY BOUNDARY</text>
+    <text x="660" y="356" fill="#555" font-size="12.5">数据边界 MEMORY BOUNDARY</text>
     <text x="660" y="380" fill="#222" font-weight="600">仅采购类目 · 不可访问私信与照片</text>
   </g>
 
   <line x1="330" y1="410" x2="910" y2="410" stroke="#e5e5ea"/>
 
   <!-- footer buttons -->
-  <rect x="330" y="432" width="170" height="40" rx="8" fill="#eef2f8" stroke="#c6d4ea"/>
+  <rect x="330" y="432" width="170" height="40" rx="0" fill="#eef2f8" stroke="#c6d4ea"/>
   <text x="415" y="457" text-anchor="middle" font-size="14" font-weight="600" fill="#2c5d8f">查看审计日志</text>
-  <rect x="512" y="432" width="170" height="40" rx="8" fill="#eef2f8" stroke="#c6d4ea"/>
+  <rect x="512" y="432" width="170" height="40" rx="0" fill="#eef2f8" stroke="#c6d4ea"/>
   <text x="597" y="457" text-anchor="middle" font-size="14" font-weight="600" fill="#2c5d8f">检查当前计划</text>
-  <rect x="740" y="432" width="170" height="40" rx="8" fill="#fff" stroke="#b03a2e" stroke-width="1.5"/>
+  <rect x="740" y="432" width="170" height="40" rx="0" fill="#fff" stroke="#b03a2e" stroke-width="1.5"/>
   <text x="825" y="457" text-anchor="middle" font-size="14" font-weight="700" fill="#b03a2e">撤销全部授权</text>
 
-  <text x="620" y="530" text-anchor="middle" font-size="13" fill="#888">它告诉你的是：谁授权的、能做什么、到哪里为止、出了事查哪里、怎么一键撤销</text>
+  <text x="620" y="530" text-anchor="middle" font-size="13" fill="#555">它告诉你的是：谁授权的、能做什么、到哪里为止、出了事查哪里、怎么一键撤销</text>
 </svg>

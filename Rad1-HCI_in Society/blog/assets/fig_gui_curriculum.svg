@@ -3,61 +3,61 @@
   <text x="620" y="46" text-anchor="middle" font-size="22" font-weight="600" fill="#222">界面这门课：从陌生机器到撤除脚手架</text>
 
   <!-- stage 0 -->
-  <rect x="30" y="90" width="150" height="150" rx="12" fill="#eeeeee" stroke="#dddddd"/>
+  <rect x="30" y="90" width="150" height="150" rx="0" fill="#eeeeee" stroke="#dddddd"/>
   <text x="105" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#333">陌生的计算机</text>
-  <text x="105" y="150" text-anchor="middle" font-size="12.5" fill="#777">命令行时代</text>
-  <text x="105" y="172" text-anchor="middle" font-size="12.5" fill="#777">用户学机器的逻辑</text>
-  <text x="105" y="208" text-anchor="middle" font-size="11" fill="#999">C:&#92;&gt; dir /wp</text>
+  <text x="105" y="150" text-anchor="middle" font-size="12.5" fill="#555">命令行时代</text>
+  <text x="105" y="172" text-anchor="middle" font-size="12.5" fill="#555">用户学机器的逻辑</text>
+  <text x="105" y="208" text-anchor="middle" font-size="11" fill="#555">C:&#92;&gt; dir /wp</text>
 
   <line x1="185" y1="165" x2="215" y2="165" stroke="#aaa" stroke-width="2"/>
   <path d="M215 165 l-8 -5 v10 z" fill="#aaa"/>
 
   <!-- stage 1 -->
-  <rect x="220" y="90" width="150" height="150" rx="12" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
+  <rect x="220" y="90" width="150" height="150" rx="0" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
   <text x="295" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#2c5d8f">借用熟悉隐喻</text>
-  <text x="295" y="146" text-anchor="middle" font-size="12.5" fill="#777">1981–84 · 第1课</text>
+  <text x="295" y="146" text-anchor="middle" font-size="12.5" fill="#555">1981–84 · 第1课</text>
   <text x="295" y="170" text-anchor="middle" font-size="12.5" fill="#555">Xerox Star / Lisa / Mac</text>
-  <text x="295" y="192" text-anchor="middle" font-size="12" fill="#888">桌面、文件夹、废纸篓</text>
+  <text x="295" y="192" text-anchor="middle" font-size="12" fill="#555">桌面、文件夹、废纸篓</text>
 
   <line x1="375" y1="165" x2="405" y2="165" stroke="#aaa" stroke-width="2"/>
   <path d="M405 165 l-8 -5 v10 z" fill="#aaa"/>
 
   <!-- stage 2 -->
-  <rect x="410" y="90" width="150" height="150" rx="12" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
+  <rect x="410" y="90" width="150" height="150" rx="0" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
   <text x="485" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#2c5d8f">语法标准化</text>
-  <text x="485" y="146" text-anchor="middle" font-size="12.5" fill="#777">1985–95 · 第2–3课</text>
+  <text x="485" y="146" text-anchor="middle" font-size="12.5" fill="#555">1985–95 · 第2–3课</text>
   <text x="485" y="170" text-anchor="middle" font-size="12.5" fill="#555">Windows 3.x → 95</text>
-  <text x="485" y="192" text-anchor="middle" font-size="12" fill="#888">Start / Taskbar 外显状态</text>
+  <text x="485" y="192" text-anchor="middle" font-size="12" fill="#555">Start / Taskbar 外显状态</text>
 
   <line x1="565" y1="165" x2="595" y2="165" stroke="#aaa" stroke-width="2"/>
   <path d="M595 165 l-8 -5 v10 z" fill="#aaa"/>
 
   <!-- stage 3 -->
-  <rect x="600" y="90" width="150" height="150" rx="12" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
+  <rect x="600" y="90" width="150" height="150" rx="0" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
   <text x="675" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#2c5d8f">身体语法</text>
-  <text x="675" y="146" text-anchor="middle" font-size="12.5" fill="#777">2007–13 · 第4课</text>
+  <text x="675" y="146" text-anchor="middle" font-size="12.5" fill="#555">2007–13 · 第4课</text>
   <text x="675" y="170" text-anchor="middle" font-size="12.5" fill="#555">iOS 1–6</text>
-  <text x="675" y="192" text-anchor="middle" font-size="12" fill="#888">纸张、书架 + 触控物理</text>
+  <text x="675" y="192" text-anchor="middle" font-size="12" fill="#555">纸张、书架 + 触控物理</text>
 
   <line x1="755" y1="165" x2="785" y2="165" stroke="#aaa" stroke-width="2"/>
   <path d="M785 165 l-8 -5 v10 z" fill="#aaa"/>
 
   <!-- stage 4 -->
-  <rect x="790" y="90" width="150" height="150" rx="12" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
+  <rect x="790" y="90" width="150" height="150" rx="0" fill="#fff" stroke="#4a7ebb" stroke-width="1.5"/>
   <text x="865" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#2c5d8f">惯例被内化</text>
-  <text x="865" y="146" text-anchor="middle" font-size="12.5" fill="#777">毕业</text>
+  <text x="865" y="146" text-anchor="middle" font-size="12.5" fill="#555">毕业</text>
   <text x="865" y="170" text-anchor="middle" font-size="12.5" fill="#555">用户已掌握数字语法</text>
-  <text x="865" y="192" text-anchor="middle" font-size="12" fill="#888">一次学习，全生态迁移</text>
+  <text x="865" y="192" text-anchor="middle" font-size="12" fill="#555">一次学习，全生态迁移</text>
 
   <line x1="945" y1="165" x2="975" y2="165" stroke="#aaa" stroke-width="2"/>
   <path d="M975 165 l-8 -5 v10 z" fill="#aaa"/>
 
   <!-- stage 5 -->
-  <rect x="980" y="90" width="230" height="150" rx="12" fill="#eaf2ea" stroke="#5a9364" stroke-width="1.5"/>
+  <rect x="980" y="90" width="230" height="150" rx="0" fill="#eaf2ea" stroke="#5a9364" stroke-width="1.5"/>
   <text x="1095" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#3d6b47">撤架 + 数字物理</text>
-  <text x="1095" y="146" text-anchor="middle" font-size="12.5" fill="#777">2013–14 · 第5课</text>
+  <text x="1095" y="146" text-anchor="middle" font-size="12.5" fill="#555">2013–14 · 第5课</text>
   <text x="1095" y="170" text-anchor="middle" font-size="12.5" fill="#555">Metro / iOS 7 / Material</text>
-  <text x="1095" y="192" text-anchor="middle" font-size="12" fill="#888">材质退场，规律留场</text>
+  <text x="1095" y="192" text-anchor="middle" font-size="12" fill="#555">材质退场，规律留场</text>
 
-  <text x="620" y="278" text-anchor="middle" font-size="12.5" fill="#999">注意：这是便于理解的解读框架，不是单因果历史 —— 撤架有失败案例（Windows 8），拟物也不一定更好学</text>
+  <text x="620" y="278" text-anchor="middle" font-size="12.5" fill="#555">注意：这是便于理解的解读框架，不是单因果历史 —— 撤架有失败案例（Windows 8），拟物也不一定更好学</text>
 </svg>
