@@ -1,10 +1,6 @@
 # 撤掉那张脸：界面如何教会社会认识新的主体
 
-> 一个思考了很久的命题，先给一句话版本：
->
 > **拟物（skeuomorphism）之于数字对象，可能类似于拟人化之于数字主体。** 早期 GUI 用熟悉的办公室物件教人类理解计算机；当这套交互语法被社会内化之后，界面撤掉了显式脚手架。今天 AI 界面大量使用头像、名字、声音、第一人称和人格——它很可能在做同样的事情：用"人"这个旧模型，解释一种新型的非人行动者。
->
-> 以及一个必须先说清的声明：这是一个**比较性设计理论框架和历史解释**，不是被证明的进化定律。文章会一路标注哪些是史实、哪些是解释、哪些还只是可检验的假说。
 
 ---
 
@@ -14,59 +10,59 @@
 
 **为什么 1984 年的黑白 Macintosh，其实比今天很多质感精良的 3D 界面更"拟物"？**
 
-Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是黑白的，像素粗糙。但只要你把它和 iOS 6 放在一起看——便签纸做的 Notes、翻页的日历、木纹的 Game Center——就会意识到：我们对"拟物"这个词的理解，从一开始就太窄了。
+Macintosh 的屏幕上没有皮革、没有木纹、没有拟真按钮。它是黑白的，像素粗糙。但只要你把它和 iOS 6 放在一起看：便签纸做的 Notes、翻页的日历、木纹的 Game Center，就会意识到：我们对"拟物"这个词的理解，从一开始就太窄了。
 
 ![iOS 6 主屏：拟物的顶点——图标不再"指代"物，而是伪装成物本身（图片来源：Wikimedia Commons, CC BY 4.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg/1280px-IPod_Touch_4G_running_iOS_6.1.3_showing_the_Home_Screen.jpg)
 
-把拟物拆成三层，历史会清晰很多：
+如果我们把拟物拆成三层，历史会清晰很多：
 
 - **语义拟物（semantic）**：Desktop、Folder、Trash、Clipboard——用旧世界的名词给数字对象命名分类。
-- **行为拟物（behavioral）**：拖拽、翻页、滑动、扔进废纸篓——用旧世界的动作解释数字操作。
+- **行为拟物（behavioural）**：拖拽、翻页、滑动、扔进废纸篓——用旧世界的动作解释数字操作。
 - **视觉拟物（visual）**：皮革、木纹、纸纹、高光倒角——在表面材质上假装自己是现实物件。
 
-1984 年的 Macintosh 前两层拉满、第三层几乎没有（黑白屏幕也不允许）。iOS 6 三层俱强。iOS 7 之后的"扁平化"砍掉的主要是第三层。**只把拟物理解成"皮革和木纹"，会错过 GUI 最早、也最重要的认知工作。**
+1984 年的 Macintosh 将前两层拉满、但第三层几乎没有（黑白屏幕也不允许）。iOS 6 三层俱强。iOS 7 之后的"扁平化"则砍掉的主要是第三层。**只是把拟物理解成"皮革和木纹"，必然会错过 GUI 最早、也最重要的认知工作。**
 
-这个三层区分有一个学术锚点。Carroll、Mack 和 Kellogg 在 1988 年讨论界面隐喻时就指出：隐喻的作用是降低目标域的初始认知距离、帮助用户起步，但用户最终需要形成的，是对目标域本身的 mental model——对计算机本身的理解，而不是对办公室的怀念。隐喻是脚手架，不是目的地。
+这个三层区分有一个学术锚点。Carroll、Mack 和 Kellogg 在 1988 年讨论界面隐喻时就指出：隐喻的作用是降低目标域的初始认知距离、帮助用户起步，但用户最终需要形成的，是对目标域本身的心智模型——对计算机本身的理解，而不是对办公室的怀念。隐喻是脚手架，不是目的地。
 
 ## 二、界面是一门课
 
-顺着这个思路，UI 的历史可以读成一张"人类计算课程表"。注意：这是一种**解读**，不是设计者的自觉宣言——但几乎每个案例都有扎实的史料支撑。
+顺着这个思路，UI 的历史可以解读成一张"人类计算课程表"。注意：这是一种**解读**，不是设计者的<NEED_MODIFY>自觉宣言</NEED_MODIFY>——但几乎每个案例都有扎实的史料支撑。
 
 ![课程表总览：从陌生本体到撤除脚手架（本文绘制）](assets/fig_gui_curriculum.png)
 
-**第一课：把机器 ontology 翻译成人 ontology。** Xerox Star（1981）的革命性不在于"图标画得像"，而在于它改变了你面对计算机时的本体论：你面对的不再是 program、process、storage structure，而是 document、folder、in/out basket、printer。
+**第一课：把机器的本体论（ontology）翻译成人的语言。** Xerox Star（1981）的革命性不在于"图标画得像"，而在于它改变了你面对计算机时的本体论：你面对的不再是程序、进程、存储结构，而是文档、文件夹、收/发件篮（in/out basket）、printer。
 
 ![Xerox Star 8010 桌面：文件夹、收/发件篮、约会簿——办公空间被直接搬进了屏幕（图片来源：Wikimedia Commons, CC BY 2.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Desktop_icons_for_Xerox_Star_8010.jpg/1280px-Desktop_icons_for_Xerox_Star_8010.jpg)
 
-苹果 Lisa（1983）把 simplicity 和 integration 写进官方 UI 标准，把一致性当作降低学习成本的手段；Macintosh（1984）用 MacPaint 教直接操作、用 MacWrite 教 WYSIWYG。
+苹果 Lisa（1983）把简单（simplicity）和一体化（ integration）写进官方 UI 标准，将一致性当作降低学习成本的手段；Macintosh（1984）用 MacPaint 教直接操作、用 MacWrite 教 WYSIWYG（所见即所得）。
 
-**第二课：GUI 语法标准化。** 早期的 Windows 1.0（1985）更像 DOS 的视觉控制层；到 Windows 3.x，用户需要同时理解 Program Manager 和 File Manager 两套本体——"程序在哪里"和"文件在哪里"是两个问题。今天看来自然的 app/file 区分，曾经是必须被明确教授的知识。
+**第二课：GUI 语法标准化。** 早期的 Windows 1.0（1985）则更像 DOS 的视觉控制层；到 Windows 3.x，用户需要同时理解 Program Manager 和 File Manager 两套本体——"程序在哪里"和"文件在哪里"是两个问题。今天看来自然的 app/file 区分，曾经是必须被明确教授的知识。
 
 ![Windows 3.x 的 Program Manager：图标正从"办公物件"退化为"程序入口"（图片来源：Wikimedia Commons, Public domain）](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png/1280px-Windows_for_Workgroups_3.11_Mened%C5%BCer_program%C3%B3w.png)
 
-**第三课：系统状态必须可见。** 这是资料里最硬的案例。Windows 95 的设计团队（Kent Sullivan 在 CHI 1996 上公开了完整的过程）通过 usability testing 发现，新手真正的困难不是"找不到命令"，而是**系统状态不可见**：最小化一个窗口之后，那个任务仿佛消失了。Taskbar 的价值在于让"仍然存在的任务"持续可见；Start 按钮则是把系统拓扑压缩成一个可返回的 home base。
+**第三课：系统状态必须可见。** <NEED_MODIFY>这是资料里最硬的案例。</NEED_MODIFY>Windows 95 的设计团队（Kent Sullivan 在 CHI 1996 上公开了完整的过程）通过易用性测试发现，新手真正的困难不是"找不到命令"，而是**系统状态不可见**：最小化一个窗口之后，那个任务仿佛消失了。任务栏的价值在于让"仍然存在的任务"持续可见；开始按钮则是把系统拓扑压缩成一个可返回的<NEED_MODIFY>home base</NEED_MODIFY>。
 
 ![Windows 95：Start 菜单展开，Taskbar 让"仍然存在的任务"持续可见（图片来源：Wikimedia Commons, CC0）](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Windows95pl.png/1280px-Windows95pl.png)
 
-这里有一个鲜为人知的细节，我认为是整个 UI 史上最有教育意义的失败案例之一：团队做过一个 **Beginner Shell**——一个为新手极度简化的界面——最后**主动放弃了**。原因有三：功能不全，用户迟早要退出；在简化界面里学到的东西迁移不到标准界面；等于要学两套系统。
-
+这里有一个鲜为人知的细节，我认为是整个 UI 史上最有教育意义的失败案例之一：Windows 团队做过一个 **Beginner Shell**：一个为新手极度简化的界面<COMMENT>很容易认为是终端模拟器</COMMENT>，最后**主动放弃了**。原因有三：功能不全，用户迟早要退出；在简化界面里学到的东西迁移不到标准界面；等于要学两套系统。
+<COMMENT>需要过渡语句</COMMENT>
 **脚手架不能与最终系统割裂。** 这句话几乎可以作为整篇文章的注脚。
 
-**第四课：身体语法。** 2007 年电容多点触控对大众是陌生的。iOS 1–6 的拟物——就是开头那张主屏——不只是在卖萌，它在为一套全新的身体交互建立可预测的"物理"。现实感降低了新交互的语义距离。
+**第四课：身体语法。** 2007 年电容多点触控刚出现时对对大众是陌生的。iOS 1–6 的拟物，就是开头那张主屏，不只是在<NEED_MODIFY>卖萌</NEED_MODIFY>，它在为一套全新的<NEED_MODIFY>身体交互建立可预测的"物理"</NEED_MODIFY>。通过融合现实中的知识，降低了新交互的语义距离。
 
-**第五课：毕业，以及撤架。** Metro（2011）把 "authentically digital" 和 "content not chrome" 直接写进官方设计理念，明确反对为了传统而模拟现实控件。iOS 7 常被讲成"去拟物"，但这个说法不准确：它减弱的是 object-level 的视觉写实（皮革、木纹），同时**增强了** motion、layer、translucency 这类空间与行为的写实。真正的变化是：用户的"毕业"感来自交互语法的延续（UIKit 结构没动，换的是皮肤），于是显式脚手架可以撤掉一部分。
+**第五课：毕业，以及撤架。** Metro（2011）把 "原生数字化"（authentically digital）和 "重内容，轻界面"（content not chrome） 写进官方设计理念，明确反对为了传统而模拟现实控件。iOS 7 常被讲成"去拟物"，但这个说法不准确：它减弱的是<NEED_MODIFY>object-level</NEED_MODIFY>的视觉写实（皮革、木纹），同时**增强了**<NEED_MODIFY>motion、layer、translucency</NEED_MODIFY>这类空间与行为的写实。真正的变化是：用户的"毕业"感来自交互语法的延续（UIKit 结构没动，换的是皮肤），于是显式脚手架可以撤掉一部分。
 
 ![iOS 7 锁屏：物从界面里退场，只留下色彩、字体与层级（Commons 判定 Public domain；苹果 UI 截图的版权状态存在争议，使用风险自担）](https://upload.wikimedia.org/wikipedia/commons/6/63/IOS_7_Lockscreen.png)
 
-然后 Material Design（2014）做了一个漂亮的转身：设计团队用**真实纸张**做实验，观察光影和纸片的运动，再抽象成规则。这不是"iOS 6 式"的拟物——不是假装 Gmail 是一个皮革信封——而是从"模仿具体物件"转向"模拟物理规律"。
+Material Design（2014）随后做了一个不一样的转变：设计团队用**真实纸张**做实验，观察光影和纸片的运动，再抽象成规则。这不是"iOS 6 式"的拟物——不是假装 Gmail 是一个皮革信封——而是从"模仿具体物件"转向"模拟物理规律"。
 
 ![Material You：拟物没有消失，而是抽象化了——阴影不再假装是阳光下的物体，而是表达界面元素的层级（图片来源：Wikimedia Commons, CC BY 4.0）](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Material_you_light.png/1280px-Material_you_light.png)
 
-Fluent 的 Acrylic/Mica 同理：质感回来，但编码的是层级、焦点和上下文，而不是"这是真的玻璃"。
+Fluent 的 Acrylic/Mica 同理：质感回来，但<NEED_MODIFY>编码</NEED_MODIFY>的是层级、焦点和上下文，而不是"这是真的玻璃"。
 
-这里必须插入两个诚实的限定，否则上面的叙事就是目的论了：
+这里必须插入两个<NEED_MODIFY>诚实的</NEED_MODIFY>限定，否则上面的叙事就是目的论了：
 
-1. **拟物 ≠ 更好学。** 后续实证研究的结果并不一致：有研究发现老年用户在某些自然主义拟物界面上反而更困难，另一些研究又发现老年用户在 flat UI 上的视觉搜索和可点击识别更差。关键变量是语义距离、熟悉度、可供性和约定俗成，而不是"像不像现实"本身。
+1. **拟物 ≠ 更好学。** 后续实证研究的结果并不一致：有研究发现老年用户在某些自然主义拟物界面上反而更困难，另一些研究又发现老年用户在扁平 UI 上的视觉搜索和可点击识别更差。关键变量是语义距离、熟悉度、可供性和约定俗成，而不是"像不像现实"本身。
 2. **撤架也会失败。** Windows 8 把大量操作藏进边缘手势，discoverability 出了明显问题。结论是：只有当目标用户群已经内化了某个交互约定，撤掉提示才是安全的——"教育完成"从来不是全社会、全设备、全模态一次性完成的。
 
 所以更准确的说法是：**当一个交互约定被某一目标群体广泛内化之后，显式提示的必要性可能下降。** 界面史不是单行线，是反复试验、有分叉、有回退的历史。
